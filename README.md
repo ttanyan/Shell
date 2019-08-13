@@ -1,7 +1,9 @@
-# Shell
-用于监控的Linux服务器上的CPU，内存，宽带以及磁盘的外壳脚本
-## 邮件发送模块
-sendDiskMail.pl
-sendMemoryMail.pl
-## 主程序
-dicb.sh 主要是用shell执行Linux最基本的命令。
+# ShellScript
+### Monitor 告警监控脚本
+######  1、dicb.sh 项目监控
+###### 2、xxx.pl 邮箱发送
+### StartScript 项目启动脚本
+###### damenon.sh 启动主程序
+###### start.sh 启动主程序
+# PythonScript
+###### test.py 告警监控
