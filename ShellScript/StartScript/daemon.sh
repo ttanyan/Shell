@@ -35,14 +35,14 @@ function stopApp()
 {
         echo "trying stop app $APP_NAME at [${BASE_DIR}] ......................"
         PID=$(ps -ef|grep $BASE_DIR|grep $APP_NAME|grep -v grep|grep -v kill|awk '{ print $2 }')
-        if [ ${PID} ]; then
+        if [ "${PID}" ]; then
             echo 'Stop Process...'
             kill -15 $PID
         fi
         sleep 5
 
         PID=$(ps -ef|grep $BASE_DIR|grep $APP_NAME|grep -v grep|grep -v kill|awk '{ print $2 }')
-        if [ ${PID} ]; then
+        if [ "${PID}" ]; then
             echo 'Kill Process!'
             kill -9 $PID
         else
