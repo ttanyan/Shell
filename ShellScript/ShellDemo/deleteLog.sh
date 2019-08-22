@@ -12,9 +12,6 @@ do
      done
 done
 
-
-/mnt/shellScript/delete-3-log.sh
-
 ##!/bin/bash
 ## 非当天日志
 #find /mnt/smarthome/api-gateway_8101/logs  -mtime +10 -name *.*.log | xargs du -sh
