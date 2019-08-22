@@ -1,5 +1,15 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
+
+
+#************************************************************************#
+#  Filrname     :               DICB.sh					 #
+#  Author       :               TLW 					 #
+#  CreateDate   :               2019-08-02				 #
+#  Description  :               this script is mointoring the linux Disk #
+#                               CPU 、RAM、Bandwidth、if used more than  #
+#                               sum 90%,then it will send a alarm email. #
+#************************************************************************#
 import psutil
 import datetime
 from xlrd import open_workbook
