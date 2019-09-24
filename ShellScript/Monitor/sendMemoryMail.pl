@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 $to = '1075379406@qq.com';
-$from = 'tanlianwang@jimimax.com';
+$from = 'tanlianwang@jimilab.com';
 $subject = 'The server 172.25.3.198 MEMORY Alarm';
 $message = 'The server 198(172.25.3.198) MEMORY alarm, please take action for it. thanks! address:/home/jimi/jimi_aed/DICB/logDetails.txt';
 open(MAIL, "|/usr/sbin/sendmail -t");

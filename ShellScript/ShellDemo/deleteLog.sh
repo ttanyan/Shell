@@ -13,7 +13,7 @@ do
 done
 
 
-#直接清空当前MysqlDeploy.shMysqlDeploy.shMysqlDeploy.sh日志
+#直接清空当前日志
 #!/bin/bash
 array=("/usr/local/nginx/logs")
 for element in ${array[@]}

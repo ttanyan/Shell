@@ -115,8 +115,8 @@ def main():
 
 # 发邮件进行实时报告计算机的状态
 def send_email(info):
-    sender = 'tanlianwang@jimimax.com'
-    receivers = ['1075379406@qq.com','1968188684@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
+    sender = 'admin'
+    receivers = ['tanlianwang@jimilab.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
 
     # 三个参数：第一个为文本内容，第二个 plain 设置文本格式，第三个 utf-8 设置编码
     message = MIMEText(info, 'plain', 'utf-8')
