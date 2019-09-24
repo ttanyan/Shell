@@ -44,6 +44,10 @@ echo "character-set-server=utf8" >>${myconfig}
 #跳过密码验证
 echo "skip-grant-tables" >>${myconfig}
 echo "symbolic-links=0" >>${myconfig}
+#指定客户端连接的套接字
+echo "[client]" >>${myconfig}
+echo "socket=/tmp/mysql.sock"  >>${myconfig}
+
 echo "[mysqld_safe]" >>${myconfig}
 #这个路径在不同的Linuxn版本中有细微的差别 根据自己版本查看
 echo "log-error=/var/log/mariadb.log" >>${myconfig}
@@ -52,8 +56,8 @@ echo "!includedir /etc/my.cnf.d" >>${myconfig}
 #将mysql加入到服务，启动
 cd ${contents}/bin
 ./mysqld --defaults-file=/etc/my.cnf --user=root
-cp ${contents}/support-files/mysql.server /etc/init.d/mysql
-chkconfig mysql on
+cp ${contents}/support-files/mysql.server /etc/init.d/mysqld
+chkconfig mysqld on
 service mysqld start
 #配置环境变量
 echo "#mysql5.7" >>${environment}
