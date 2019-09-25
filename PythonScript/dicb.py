@@ -3,7 +3,7 @@
 
 
 #************************************************************************#
-#  Filrname     :               DICB.sh					                 #
+#  Filrname     :               dicb.py					                 #
 #  Author       :               TLW 					                 #
 #  CreateDate   :               2019-08-02				                 #
 #  Description  :               this script is mointoring the linux Disk #
