@@ -1,22 +1,13 @@
 ![LOGO](https://api.neweb.top/bing.php?type=future)
 
-# DeployScript 部署脚本
-# PythonScript
-###### test.py 告警监控
-# ShellScript
-#### Monitor 告警监控脚本
-######  dicb.sh 项目监控
-######  xxx.pl 邮箱发送
-######  processMonitoring 进程监控
-#### StartScript 项目启动脚本
-###### daemon.sh 主程序
-###### start.sh 启动主
-###### restart.sh 重启
-###### stop.sh 停止
-###### replace.sh 还原
-#### ShellDemo 实用脚本
-###### deleteLog 自动删除日志
-
+## Shell脚本 and Python脚本
+ * 进程监控
+ * 自动部署（JDK、MySQL）
+ * 服务器监控
+ * 邮件发送
+ * 项目启动
+ * 日志清楚
+ * 数据备份
 
 
 
